@@ -1,5 +1,6 @@
 package com.alina.homework34;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +29,7 @@ public class ContinentAdapter extends RecyclerView.Adapter<ContinentViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ContinentViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ContinentViewHolder holder, @SuppressLint("RecyclerView") int position) {
            holder.bind(continentsList.get(position));
            holder.itemView.setOnClickListener(new View.OnClickListener() {
                @Override

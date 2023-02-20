@@ -43,11 +43,11 @@ public class ContinentFragment extends Fragment  implements  onClick{
 
     private void loadData() {
         continentsList=new ArrayList<>();
-        continentsList.add(new Continent("Азия","Кыргызстан,Казакстан","https://flyclipart.com/thumb2/asia-clip-art-512467.png"));
-        continentsList.add(new Continent("Европа","Франция","https://avatars.mds.yandex.net/i?id=41c650c1008128f938b73b088491bde52be274f4-5877328-images-thumbs&n=13"));
-        continentsList.add(new Continent("Африка","Алжир","https://avatars.mds.yandex.net/i?id=5a74d66daf829f5f28d832b6f6d9aca9ac3c11be-8312904-images-thumbs&n=13"));
+        continentsList.add(new Continent("Азия","Кыргызстан,Казакстан,Корея, Кытай,Өзбекстан","https://flyclipart.com/thumb2/asia-clip-art-512467.png"));
+        continentsList.add(new Continent("Европа","Франция,Италия,Германия ,Улуу Британия, Испания","https://avatars.mds.yandex.net/i?id=41c650c1008128f938b73b088491bde52be274f4-5877328-images-thumbs&n=13"));
+        continentsList.add(new Continent("Африка","Алжир, Судан,Египед,Ливия,Нигер","https://avatars.mds.yandex.net/i?id=5a74d66daf829f5f28d832b6f6d9aca9ac3c11be-8312904-images-thumbs&n=13"));
         continentsList.add(new Continent("Австралия и Океания","Австралия","https://e7.pngegg.com/pngimages/924/228/png-clipart-heavy-machinery-crane-architectural-engineering-africa-001-orange-logo.png"));
-        continentsList.add(new Continent("Америка","Канада","https://e7.pngegg.com/pngimages/258/506/png-clipart-world-map-globe-cartography-world-map-miscellaneous-globe.png"));
+        continentsList.add(new Continent("Америка","Канада,Бразилия,Перу,Аргентина,Колумбия","https://e7.pngegg.com/pngimages/258/506/png-clipart-world-map-globe-cartography-world-map-miscellaneous-globe.png"));
 
     }
 
